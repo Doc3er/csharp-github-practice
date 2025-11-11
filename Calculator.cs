@@ -25,7 +25,13 @@ namespace CalculatorApp
             return a / b;
         }
         
-        // Отсутствует функция возведения в степень
+        {
+            public static double Power(double baseValue, double exponent)
+            {
+                return Math.Pow(baseValue, exponent);
+            }
+            
+        }
     }
     
     class Program
